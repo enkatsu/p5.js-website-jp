@@ -49,9 +49,11 @@ const headerTopic = topic
   : { name: t(capitalize(fallbackTopic)) as string, url: `/${fallbackTopic}` };
 ---
 
+<!-- Changed to support Japanese -->
+<!-- lang={currentLocale} -->
 <html
   class={`${titleClass.toLowerCase()} ${className} scroll-smooth`}
-  lang={currentLocale}
+  lang="ja"
 >
   <head>
     <script is:inline>

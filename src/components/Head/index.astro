@@ -41,7 +41,9 @@ const localizedDescription =
   <meta property="og:image" content={featuredImageSrc} />
   <meta property="og:url" content={Astro.url.href} />
   <meta property="og:type" content="website" />
-  <meta property="og:locale" content={localeContentMap[locale]} />
+  <!-- Changed to support Japanese -->
+  <!-- <meta property="og:locale" content={localeContentMap[locale]} /> -->
+  <meta property="og:locale" content="ja_JP" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@p5xjs" />
   <meta name="twitter:title" content={title} />

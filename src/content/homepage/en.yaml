@@ -24,11 +24,13 @@ heroImages:
   - image: ./images/contributor-conf-2019-17.webp
     altText: Participants sit around a table with their laptops and observe code on a screen.
     caption: "p5.js Contributors Conference 2019."
+# heroText: >
+#   p5.js is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!
 heroText: >
-  p5.js is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!
-referenceHeaderText: Explore the p5.js library reference
-examplesHeaderText: Learn p5.js with examples
-communityHeaderText: See the p5.js community in action
+  p5.jsはコーディングやアート制作を学ぶためのフレンドリーなツールです。p5.jsは、包括的で育成的なコミュニティによって構築された、フリーでオープンソースのJavaScriptライブラリです。p5.jsは、アーティスト、デザイナー、初心者、教育者、その他誰でも歓迎します！
+referenceHeaderText: p5.jsリファレンスを探索する
+examplesHeaderText: p5.jsの実例から学ぶ
+communityHeaderText: p5.jsコミュニティの活動を見る
 sketchIds:
   - 2219842
   - 2213463

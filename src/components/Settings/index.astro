@@ -77,13 +77,13 @@ const { hideSearch } = Astro.props;
   <div id="settings-placeholder" class={styles.placeholder}></div>
   <div id="settings-hitbox" class={styles.hitbox}></div>
   <div id="settings-container" class={`${styles.wrapper} settings`}>
-    <div class={styles.localeselect}>
+    <!-- <div class={styles.localeselect}>
       <LocaleSelect
         locale={currentLocale}
         options={localeOptionProps}
         client:load
       />
-    </div>
+    </div> -->
     <div class={styles.a11yselect}>
       <AccessibilitySettings options={a11ySettingsProps} client:load />
     </div>
